@@ -8,8 +8,8 @@ import re
 import threading
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39'}
-requests.packages.urllib3.disable_warnings()
 proxies = {'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'}
+requests.packages.urllib3.disable_warnings()
 
 
 def getList(urls, protocol):
