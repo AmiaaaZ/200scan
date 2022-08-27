@@ -10,7 +10,7 @@ streamlit run .\app\main.py
 
 支持完整的url或仅ip（可选http或https协议），可自定义访问时的线程数、两次访问的delay_time、单次访问的timeout_time、是否使用代理，扫描结果支持按列排序查看，可导出CSV
 
-![image-20220828004754085](https://amiz-1307622586.cos.ap-chongqing.myqcloud.com/images/image-20220828004754085.png)
+![运行截图](.\image.jpg)
 
 ------
 
