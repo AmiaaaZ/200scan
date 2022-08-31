@@ -4,7 +4,7 @@
 
 ```bash
 pip install streamlit==1.12.0	# 由streamlit强力驱动
-pip install fofa				# 如运行报错参见注1
+pip install fofa		# 如运行报错参见注1
 streamlit run ./app/🥤home.py   # 为美观考虑在文件名中添加了emoji 如运行有问题直接删掉即可
 # localhost:8501
 ```
