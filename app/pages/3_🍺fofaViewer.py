@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
         if query_str and email and key:
             # st.write('Current Fcoin: ' + str(client.get_userinfo()['fcoin']))
-            client = Client(email, key)
+            client = fofa.Client(email, key)
             if options == 'search':
                 res = client.search(query_str, page, size, fields)
             elif options == 'search_host':
