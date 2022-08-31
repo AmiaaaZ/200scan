@@ -1,4 +1,3 @@
-# version1.7 @AmiaaaZ
 import streamlit as st
 import pandas as pd
 from streamlit.runtime.scriptrunner import add_script_run_ctx
@@ -59,9 +58,9 @@ def getURL(url_list, work_now, delay_time, timeout_time):
 
 
 if __name__ == '__main__':
-    st.set_page_config(page_title="200 Scan", page_icon="🍥", layout="wide")
+    st.set_page_config(page_title="200 Scan", page_icon="🍸", layout="wide")
     st.title('- 200 Scan -')
-    col1, col2 = st.columns([1.2, 2], gap='medium')
+    col1, col2 = st.columns([1, 2], gap='medium')
 
     with col1:
         urls = st.text_area('urls here', height=300)
@@ -72,7 +71,7 @@ if __name__ == '__main__':
             thread_num = st.slider("thread_num", min_value=1, max_value=50, value=10)
             delay_time = st.slider("delay_time", min_value=0, max_value=10, value=0)
             timeout_time = st.slider("timeout_time", min_value=0, max_value=10, value=3)
-            result_file = st.text_input("result_file", value=".\\result.txt")
+            result_file = st.text_input("result_file", value="./result.txt")
 
         if run:
             df = pd.DataFrame(columns=("Url", "Alive", "Status", "Length", "Title", "IP"))
