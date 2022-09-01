@@ -9,7 +9,7 @@ streamlit run ./app/🥤home.py   # 为美观考虑在文件名中添加了emoji
 # localhost:8501
 ```
 
-## 🍸200scan
+## 🍸200Scan
 
 批量访问url，探测存活情况并返回简单信息
 
@@ -21,7 +21,7 @@ streamlit run ./app/🥤home.py   # 为美观考虑在文件名中添加了emoji
 
 ![运行截图1](./image2.png)
 
-## 🍺Fofa viewer
+## 🍺Fofa Viewer
 
 调用Fofa API进行查询并返回信息
 
@@ -30,6 +30,14 @@ streamlit run ./app/🥤home.py   # 为美观考虑在文件名中添加了emoji
 - 可选择以CSV格式导出
 
 ![运行截图2](./image3.png)
+
+## 🥃check AV
+
+杀软识别辅助，杀软列表来自[get_AV](https://github.com/r00tSe7en/get_AV)
+
+![运行截图3](./image5.jpg)
+
+------
 
 *注：页面上所有组件均支持交互www
 
@@ -46,6 +54,8 @@ streamlit run ./app/🥤home.py   # 为美观考虑在文件名中添加了emoji
 会长期更新捏QwQ
 
 ------
+
+090222，添加杀软识别辅助
 
 083122，添加Fofa Viewer
 

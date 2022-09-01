@@ -20,7 +20,7 @@ if __name__ == '__main__':
             key = st.text_input('api_key')
 
         if query_str and email and key:
-            # st.write('Current Fcoin: ' + str(client.get_userinfo()['fcoin']))
+            # st.write('Current Fcoin: ' + str(fofa.client.get_userinfo()['fcoin']))
             client = fofa.Client(email, key)
             if options == 'search':
                 res = client.search(query_str, page, size, fields)

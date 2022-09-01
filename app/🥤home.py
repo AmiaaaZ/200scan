@@ -29,6 +29,12 @@ streamlit run ./app/🥤home.py   # 为美观考虑在文件名中添加了emoji
 - 查询结果支持按列排序查看
 - 可选择以CSV格式导出
 
+## 🥃check AV
+
+杀软识别辅助，杀软列表来自[get_AV](https://github.com/r00tSe7en/get_AV)
+
+----
+
 *注：页面上所有组件均支持交互www
 
 *注1：如遇fofa库报错，请直接复制[fofa.client](https://github.com/fofapro/fofa-py/blob/master/fofa/client.py)部分代码到fofaViewer.py中！
